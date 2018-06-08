@@ -20,7 +20,6 @@
     </div>
     
 
-        {!! Form::model($task, ['route' => ['tasks.destroy', $task->id], 'method' => 'delete']) !!}
     {!! Form::close() !!}
             </div>
     </div>
